@@ -1,1 +1,7 @@
-print("Hello Python world!")
+# %%
+def hello():
+    name = input("What's your name? ")
+    print(f'Hello, {name}')
+
+hello()
+
