@@ -1,5 +1,6 @@
 # List and Dictionary Comprehension Practice
 
+# %% 
 # Question 1: Create a list of all the odd numbers between 1 and 30 using a list comprehension.
 numbers = range(1, 31)
 odd_numbers = [number for number in numbers if number % 2 != 0]
