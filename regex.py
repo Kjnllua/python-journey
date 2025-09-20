@@ -73,7 +73,7 @@ print(result)
 
 # %%
 text = "Words, separated, by, commas (and some spaces)" 
-pattern = ",\s*" # Comma followed by zero or more spaces
+pattern = ",\s*" # type: ignore # Comma followed by zero or more spaces
 
 result = re.split(pattern, text)
 
